@@ -13,7 +13,7 @@ This is an assignment in which we use Keras to build a Neural Network.
 
 In this project, we need to build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
-We use the `Melanoma dataset` (link)[https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view?usp=sharing] to build the model.
+We use the `Melanoma dataset` [link](https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view?usp=sharing) to build the model.
 
 ## Summary
 Those are the summary retrieved from the model, further information can be found in the Notebook
