@@ -18,7 +18,7 @@ We use the `Melanoma dataset` (link)[https://drive.google.com/file/d/1xLfSQUGDl8
 ## Summary
 Those are the summary retrieved from the model, further information can be found in the Notebook
 
-We built the model using CNN with 3 convolutional layers following by a dense layer before going to softmax layer
+We built the model using CNN with 3 convolutional layers following by a fully connected layer before going to softmax layer
 - The first model has the training accuracy is 87% validation accuracy is just around 54%, it seems to overfit
 - The second model has the tensorflow augmenting method applied (`RandomFlip`, `RandomRotation`, `RandomZoom`), the overfitting problem is gone but the model is underfit after 20 epochs
 - The final model used the `Augmentor` library to deal with data imbalancing, the result is better with 95% training accuracy and 78% validation accuracy after 50 epochs
